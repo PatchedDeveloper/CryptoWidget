@@ -1,8 +1,7 @@
 //
-//  CryptorankioWidget.swift
-//  CryptorankioWidget
+
 //
-//  Created by Danila Kardashevskii on 05.04.2023 for Cryptorank.io.
+//  Created by Danila Kardashevskii on 05.04.2023
 //
 
 import WidgetKit
@@ -78,11 +77,11 @@ struct BitcoinDataProvider: IntentTimelineProvider {
         let apiKey = getSymbol(from: configuration)
         apiKeys = apiKey
         
-        let url = URL(string: "https://api.cryptorank.io/v0/coins/\(apiKey)?locale=en")!
+        let url = URL(string: "https://api.**********/**/**/\(apiKey)?locale=en")!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let data = data {
                 
-                guard let urlgraph = URL(string: "https://api.cryptorank.io/v0/charts/prices-by-coin?keys=\(apiKey)&days=7") else {
+                guard let urlgraph = URL(string: "https://api.*******/**/charts/prices-by-coin?keys=\(apiKey)&days=7") else {
                     print("Invalid URL")
                     return
                 }
@@ -90,7 +89,7 @@ struct BitcoinDataProvider: IntentTimelineProvider {
              let taskgraph = URLSession.shared.dataTask(with: urlgraph) { (datagraph, responsegraph, errorgraph) in
                     if let datagraph = datagraph{
                         
-                        guard let urltoken = URL(string: "https://api.cryptorank.io/v0/coins?limit=10") else {
+                        guard let urltoken = URL(string: "https://api.******/**/coins?limit=10") else {
                             print("Invalid URL")
                             return
                         }

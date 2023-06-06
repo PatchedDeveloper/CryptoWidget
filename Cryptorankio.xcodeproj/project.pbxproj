@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D09DF8B29E6FEDD00EF1627 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D09DF8A29E6FEDD00EF1627 /* GraphView.swift */; };
+		1D09DF8C29E6FEDD00EF1627 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D09DF8A29E6FEDD00EF1627 /* GraphView.swift */; };
+		1D41427029EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D41426F29EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition */; };
+		1D41427129EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D41426F29EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition */; };
+		1D5B393029E36CD200719890 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 1D5B392F29E36CD200719890 /* Fonts */; };
+		1D83764B29E5E9D7000CC0F0 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 1D83764A29E5E9D7000CC0F0 /* SwiftUICharts */; };
+		1DAFD73729E333F200703B75 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAFD73629E333F100703B75 /* WidgetKit.framework */; };
+		1DAFD73929E333F200703B75 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAFD73829E333F200703B75 /* SwiftUI.framework */; };
+		1DAFD73C29E333F200703B75 /* CryptorankWidgetioBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFD73B29E333F200703B75 /* CryptorankWidgetioBundle.swift */; };
+		1DAFD73E29E333F200703B75 /* CryptorankWidgetio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFD73D29E333F200703B75 /* CryptorankWidgetio.swift */; };
+		1DAFD74029E333F300703B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DAFD73F29E333F300703B75 /* Assets.xcassets */; };
+		1DAFD74429E333F300703B75 /* CryptorankWidgetioExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DAFD73429E333F100703B75 /* CryptorankWidgetioExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DD1265C29F00FFE002FC319 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD1265B29F00FFE002FC319 /* Intents.framework */; };
+		1DD1265F29F00FFE002FC319 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1265E29F00FFE002FC319 /* IntentHandler.swift */; };
+		1DD1266329F00FFE002FC319 /* CryptorankAppIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1DD1265A29F00FFE002FC319 /* CryptorankAppIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1DD1266729F00FFE002FC319 /* CryptorankWidgetIntent.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1D41426F29EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition */; };
+		1DD1266829F00FFE002FC319 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD1265E29F00FFE002FC319 /* IntentHandler.swift */; };
+		1DEF0EE729E30EE500D8B074 /* CryptorankioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF0EE629E30EE500D8B074 /* CryptorankioApp.swift */; };
+		1DEF0EE929E30EE500D8B074 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEF0EE829E30EE500D8B074 /* ContentView.swift */; };
+		1DEF0EEB29E30EE700D8B074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF0EEA29E30EE700D8B074 /* Assets.xcassets */; };
+		1DEF0EEE29E30EE700D8B074 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DEF0EED29E30EE700D8B074 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DAFD74229E333F300703B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEF0EDB29E30EE500D8B074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DAFD73329E333F100703B75;
+			remoteInfo = CryptorankWidgetioExtension;
+		};
+		1DD1266129F00FFE002FC319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DEF0EDB29E30EE500D8B074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD1265929F00FFE002FC319;
+			remoteInfo = CryptorankAppIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DAFD74529E333F400703B75 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1DAFD74429E333F300703B75 /* CryptorankWidgetioExtension.appex in Embed Foundation Extensions */,
+				1DD1266329F00FFE002FC319 /* CryptorankAppIntent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D09DF8A29E6FEDD00EF1627 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		1D41426B29EF0C620022FF61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D41426F29EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; name = CryptorankWidgetIntent.intentdefinition; path = "../../../../Desktop/Cryptorank 18.23.54/CryptorankWidget/CryptorankWidgetIntent.intentdefinition"; sourceTree = "<group>"; };
+		1D5B392F29E36CD200719890 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		1DAFD73429E333F100703B75 /* CryptorankWidgetioExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptorankWidgetioExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DAFD73629E333F100703B75 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1DAFD73829E333F200703B75 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1DAFD73B29E333F200703B75 /* CryptorankWidgetioBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptorankWidgetioBundle.swift; sourceTree = "<group>"; };
+		1DAFD73D29E333F200703B75 /* CryptorankWidgetio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptorankWidgetio.swift; sourceTree = "<group>"; };
+		1DAFD73F29E333F300703B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DAFD74129E333F300703B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD1265A29F00FFE002FC319 /* CryptorankAppIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CryptorankAppIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD1265B29F00FFE002FC319 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		1DD1265E29F00FFE002FC319 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		1DD1266029F00FFE002FC319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEF0EE329E30EE500D8B074 /* Cryptorankio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cryptorankio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEF0EE629E30EE500D8B074 /* CryptorankioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptorankioApp.swift; sourceTree = "<group>"; };
+		1DEF0EE829E30EE500D8B074 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1DEF0EEA29E30EE700D8B074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DEF0EED29E30EE700D8B074 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DAFD73129E333F100703B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAFD73929E333F200703B75 /* SwiftUI.framework in Frameworks */,
+				1DAFD73729E333F200703B75 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1265729F00FFE002FC319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD1265C29F00FFE002FC319 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEF0EE029E30EE500D8B074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D83764B29E5E9D7000CC0F0 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D83763B29E5E91B000CC0F0 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				1D09DF8A29E6FEDD00EF1627 /* GraphView.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		1DAFD73529E333F100703B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DAFD73629E333F100703B75 /* WidgetKit.framework */,
+				1DAFD73829E333F200703B75 /* SwiftUI.framework */,
+				1DD1265B29F00FFE002FC319 /* Intents.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DAFD73A29E333F200703B75 /* CryptorankWidgetio */ = {
+			isa = PBXGroup;
+			children = (
+				1D83763B29E5E91B000CC0F0 /* Graph */,
+				1DAFD73B29E333F200703B75 /* CryptorankWidgetioBundle.swift */,
+				1DAFD73D29E333F200703B75 /* CryptorankWidgetio.swift */,
+				1D41426F29EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition */,
+				1DAFD73F29E333F300703B75 /* Assets.xcassets */,
+				1DAFD74129E333F300703B75 /* Info.plist */,
+				1D5B392F29E36CD200719890 /* Fonts */,
+			);
+			path = CryptorankWidgetio;
+			sourceTree = "<group>";
+		};
+		1DD1265D29F00FFE002FC319 /* CryptorankAppIntent */ = {
+			isa = PBXGroup;
+			children = (
+				1DD1265E29F00FFE002FC319 /* IntentHandler.swift */,
+				1DD1266029F00FFE002FC319 /* Info.plist */,
+			);
+			path = CryptorankAppIntent;
+			sourceTree = "<group>";
+		};
+		1DEF0EDA29E30EE500D8B074 = {
+			isa = PBXGroup;
+			children = (
+				1DEF0EE529E30EE500D8B074 /* Cryptorankio */,
+				1DAFD73A29E333F200703B75 /* CryptorankWidgetio */,
+				1DD1265D29F00FFE002FC319 /* CryptorankAppIntent */,
+				1DAFD73529E333F100703B75 /* Frameworks */,
+				1DEF0EE429E30EE500D8B074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DEF0EE429E30EE500D8B074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF0EE329E30EE500D8B074 /* Cryptorankio.app */,
+				1DAFD73429E333F100703B75 /* CryptorankWidgetioExtension.appex */,
+				1DD1265A29F00FFE002FC319 /* CryptorankAppIntent.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DEF0EE529E30EE500D8B074 /* Cryptorankio */ = {
+			isa = PBXGroup;
+			children = (
+				1D41426B29EF0C620022FF61 /* Info.plist */,
+				1DEF0EE629E30EE500D8B074 /* CryptorankioApp.swift */,
+				1DEF0EE829E30EE500D8B074 /* ContentView.swift */,
+				1DEF0EEA29E30EE700D8B074 /* Assets.xcassets */,
+				1DEF0EEC29E30EE700D8B074 /* Preview Content */,
+			);
+			path = Cryptorankio;
+			sourceTree = "<group>";
+		};
+		1DEF0EEC29E30EE700D8B074 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1DEF0EED29E30EE700D8B074 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DAFD73329E333F100703B75 /* CryptorankWidgetioExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DAFD74829E333F400703B75 /* Build configuration list for PBXNativeTarget "CryptorankWidgetioExtension" */;
+			buildPhases = (
+				1DAFD73029E333F100703B75 /* Sources */,
+				1DAFD73129E333F100703B75 /* Frameworks */,
+				1DAFD73229E333F100703B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptorankWidgetioExtension;
+			productName = CryptorankWidgetioExtension;
+			productReference = 1DAFD73429E333F100703B75 /* CryptorankWidgetioExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1DD1265929F00FFE002FC319 /* CryptorankAppIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD1266629F00FFE002FC319 /* Build configuration list for PBXNativeTarget "CryptorankAppIntent" */;
+			buildPhases = (
+				1DD1265629F00FFE002FC319 /* Sources */,
+				1DD1265729F00FFE002FC319 /* Frameworks */,
+				1DD1265829F00FFE002FC319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptorankAppIntent;
+			productName = CryptorankAppIntent;
+			productReference = 1DD1265A29F00FFE002FC319 /* CryptorankAppIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1DEF0EE229E30EE500D8B074 /* Cryptorankio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEF0EF129E30EE700D8B074 /* Build configuration list for PBXNativeTarget "Cryptorankio" */;
+			buildPhases = (
+				1DEF0EDF29E30EE500D8B074 /* Sources */,
+				1DEF0EE029E30EE500D8B074 /* Frameworks */,
+				1DEF0EE129E30EE500D8B074 /* Resources */,
+				1DAFD74529E333F400703B75 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DAFD74329E333F300703B75 /* PBXTargetDependency */,
+				1DD1266229F00FFE002FC319 /* PBXTargetDependency */,
+			);
+			name = Cryptorankio;
+			packageProductDependencies = (
+				1D83764A29E5E9D7000CC0F0 /* SwiftUICharts */,
+			);
+			productName = Cryptorankio;
+			productReference = 1DEF0EE329E30EE500D8B074 /* Cryptorankio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DEF0EDB29E30EE500D8B074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1DAFD73329E333F100703B75 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1DD1265929F00FFE002FC319 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1DEF0EE229E30EE500D8B074 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1DEF0EDE29E30EE500D8B074 /* Build configuration list for PBXProject "Cryptorankio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DEF0EDA29E30EE500D8B074;
+			packageReferences = (
+				1D83764929E5E9D7000CC0F0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 1DEF0EE429E30EE500D8B074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DEF0EE229E30EE500D8B074 /* Cryptorankio */,
+				1DAFD73329E333F100703B75 /* CryptorankWidgetioExtension */,
+				1DD1265929F00FFE002FC319 /* CryptorankAppIntent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DAFD73229E333F100703B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAFD74029E333F300703B75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1265829F00FFE002FC319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEF0EE129E30EE500D8B074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5B393029E36CD200719890 /* Fonts in Resources */,
+				1DEF0EEE29E30EE700D8B074 /* Preview Assets.xcassets in Resources */,
+				1DEF0EEB29E30EE700D8B074 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DAFD73029E333F100703B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DAFD73E29E333F200703B75 /* CryptorankWidgetio.swift in Sources */,
+				1DD1266829F00FFE002FC319 /* IntentHandler.swift in Sources */,
+				1DAFD73C29E333F200703B75 /* CryptorankWidgetioBundle.swift in Sources */,
+				1D09DF8C29E6FEDD00EF1627 /* GraphView.swift in Sources */,
+				1D41427129EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD1265629F00FFE002FC319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD1265F29F00FFE002FC319 /* IntentHandler.swift in Sources */,
+				1DD1266729F00FFE002FC319 /* CryptorankWidgetIntent.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DEF0EDF29E30EE500D8B074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DEF0EE929E30EE500D8B074 /* ContentView.swift in Sources */,
+				1DEF0EE729E30EE500D8B074 /* CryptorankioApp.swift in Sources */,
+				1D09DF8B29E6FEDD00EF1627 /* GraphView.swift in Sources */,
+				1D41427029EF17AF0022FF61 /* CryptorankWidgetIntent.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DAFD74329E333F300703B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DAFD73329E333F100703B75 /* CryptorankWidgetioExtension */;
+			targetProxy = 1DAFD74229E333F300703B75 /* PBXContainerItemProxy */;
+		};
+		1DD1266229F00FFE002FC319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD1265929F00FFE002FC319 /* CryptorankAppIntent */;
+			targetProxy = 1DD1266129F00FFE002FC319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DAFD74629E333F400703B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptorankWidgetio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptorankWidgetio;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio.CryptorankWidgetio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DAFD74729E333F400703B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptorankWidgetio/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptorankWidgetio;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio.CryptorankWidgetio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DD1266429F00FFE002FC319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptorankAppIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptorankAppIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio.CryptorankAppIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD1266529F00FFE002FC319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CryptorankAppIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptorankAppIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio.CryptorankAppIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DEF0EEF29E30EE700D8B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DEF0EF029E30EE700D8B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DEF0EF229E30EE700D8B074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptorankio/Preview Content\"";
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptorankio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEF0EF329E30EE700D8B074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cryptorankio/Preview Content\"";
+				DEVELOPMENT_TEAM = 97A9R2HAY5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cryptorankio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qq.Cryptorankio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DAFD74829E333F400703B75 /* Build configuration list for PBXNativeTarget "CryptorankWidgetioExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DAFD74629E333F400703B75 /* Debug */,
+				1DAFD74729E333F400703B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD1266629F00FFE002FC319 /* Build configuration list for PBXNativeTarget "CryptorankAppIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD1266429F00FFE002FC319 /* Debug */,
+				1DD1266529F00FFE002FC319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEF0EDE29E30EE500D8B074 /* Build configuration list for PBXProject "Cryptorankio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEF0EEF29E30EE700D8B074 /* Debug */,
+				1DEF0EF029E30EE700D8B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEF0EF129E30EE700D8B074 /* Build configuration list for PBXNativeTarget "Cryptorankio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEF0EF229E30EE700D8B074 /* Debug */,
+				1DEF0EF329E30EE700D8B074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1D83764929E5E9D7000CC0F0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/willdale/SwiftUICharts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1D83764A29E5E9D7000CC0F0 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1D83764929E5E9D7000CC0F0 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1DEF0EDB29E30EE500D8B074 /* Project object */;
+}

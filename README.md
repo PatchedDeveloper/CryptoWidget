@@ -8,8 +8,7 @@ current price, price change for a certain period in relative and absolute values
 <img width="215" alt="Снимок экрана 2023-06-06 в 15 08 44" src="https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/99558339-a892-4624-8bf5-40e25b490842">
 
 Pre-selection of the coin was carried out in the widget settings, all data about the coin was obtained through the API.
-
-![Simulator Screen Shot - iPhone 14 Pro - 2023-06-05 at 14 10 38](https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/22aaa5e1-19ad-4d24-83cd-9aeb285a8988)
+<img width="200" alt="Снимок экрана 2023-06-06 в 15 10 33" src="[https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/4703b5dc-d295-4579-aa0f-f89c5fa0cb47](https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/22aaa5e1-19ad-4d24-83cd-9aeb285a8988)">
 
 <img width="200" alt="Снимок экрана 2023-06-06 в 15 10 33" src="https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/4703b5dc-d295-4579-aa0f-f89c5fa0cb47">
 

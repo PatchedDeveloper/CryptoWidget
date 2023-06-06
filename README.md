@@ -1,6 +1,8 @@
 # CryptoWidget
 ***I created a crypto widget!***
+
 **Technologies: SwiftUI, WidgetKit, Charts.**
+
 Full development of a mobile application widget for an analytical crypto company.
 The widget displayed information about the selected cryptocurrency: logo, name,
 current price, price change for a certain period in relative and absolute values.

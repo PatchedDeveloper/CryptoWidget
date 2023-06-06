@@ -17,3 +17,4 @@ two-color graph of points coming from the API.
 
 <img width="179" alt="Снимок экрана 2023-06-06 в 15 10 54" src="https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/80411951-26eb-48bd-b1ec-86938bab74e7">
 
+technologies: SwiftUI, WidgetKit, Charts.

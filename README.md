@@ -1,6 +1,6 @@
 # CryptoWidget
 ***I created a crypto widget!***
-
+**Technologies: SwiftUI, WidgetKit, Charts.**
 Full development of a mobile application widget for an analytical crypto company.
 The widget displayed information about the selected cryptocurrency: logo, name,
 current price, price change for a certain period in relative and absolute values.
@@ -17,4 +17,4 @@ two-color graph of points coming from the API.
 
 <img width="179" alt="Снимок экрана 2023-06-06 в 15 10 54" src="https://github.com/PatchedDeveloper/CryptoWidget/assets/103842703/80411951-26eb-48bd-b1ec-86938bab74e7">
 
-technologies: SwiftUI, WidgetKit, Charts.
+
